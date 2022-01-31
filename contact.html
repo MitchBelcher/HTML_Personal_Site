@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="CSS/styles.css">
   </head>
   <body>
-    <h3>Mitch Belcher contact details</h3>
+    <h3>Mitch Belcher's Contact Details:</h3>
     <p><strong><em>Email:</em></strong> Mitch.A.Belcher@Gmail.com</p>
     <p><strong><em>Address:</em></strong> fictional_address</p>
     <p><strong><em>Phone #:</em></strong> fictional_phone_number</p>
@@ -17,14 +18,15 @@
     And we have added an encoding type attribute that tells the form that the data is plain-text
     There are also many, many different types of inputs: text, email, submit, datetime, radio buttons, etc...
    -->
+   <h3>Contact Form:</h3>
     <form action="mailto:Mitch.A.Belcher@Gmail.com" method="post" enctype="text/plain">
-      <label for="">Your Name:</label>
+      <label for=""><strong>Your Name:</strong></label>
       <input type="text" name="nameField" value="">
       <br />
-      <label for="">Your Email:</label>
+      <label for=""><strong>Your Email:</strong></label>
       <input type="email" name="emailField" value="">
       <br />
-      <label for="">Your Message:</label>
+      <label for=""><strong>Your Message:</strong></label>
       <textarea name="messageField" rows="8" cols="80"></textarea>
       <br />
       <input type="submit" name="contactButton">

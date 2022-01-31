@@ -1,0 +1,31 @@
+html {
+  /*font-size: 10px;*/
+}
+body {
+  background-color: #7EB5A6;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #E8D0B3;
+  border-width: 5px;
+  width: 95%;
+}
+img {
+  height: 250px;
+}
+h1 {
+  font-family: Helvetica, Courier;
+  /* font-size: 5em; */
+  color: #86340A;
+}
+h2 {
+  /* font-size: 4em; */
+}
+h3 {
+  color: #86340ACF;
+  /* font-size: 3em; */
+}
+p {
+  /* font-size: 2em; */
+}
