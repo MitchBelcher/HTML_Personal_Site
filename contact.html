@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>Mitch Belcher contact details</h3>
+    <p><strong><em>Email:</em></strong> Mitch.A.Belcher@Gmail.com</p>
+    <p><strong><em>Address:</em></strong> fictional_address</p>
+    <p><strong><em>Phone #:</em></strong> fictional_phone_number</p>
+
+    <hr />
+  <!-- The form element can be used in many, many ways
+    Here, we are using the action "mailto" to use the default mail sending application
+    method is as of yet, unknown to me
+    And we have added an encoding type attribute that tells the form that the data is plain-text
+    There are also many, many different types of inputs: text, email, submit, datetime, radio buttons, etc...
+   -->
+    <form action="mailto:Mitch.A.Belcher@Gmail.com" method="post" enctype="text/plain">
+      <label for="">Your Name:</label>
+      <input type="text" name="nameField" value="">
+      <br />
+      <label for="">Your Email:</label>
+      <input type="email" name="emailField" value="">
+      <br />
+      <label for="">Your Message:</label>
+      <textarea name="messageField" rows="8" cols="80"></textarea>
+      <br />
+      <input type="submit" name="contactButton">
+    </form>
+
+    <hr />
+    <!-- Here I have added an example of how a form could be used to just simply add a button that will redirect to another HTML document in the project
+      This could be done using the basic "a" element and the link to the HTML page like in the main index.html page in this project for getting to this page.
+   -->
+    <form class="" action="index.html" method="post">
+      <input type="submit" name="" value="Back to Main Page">
+    </form>
+  </body>
+</html>
