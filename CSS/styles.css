@@ -27,6 +27,23 @@ h3 {
   color: #86340ACF;
   /* font-size: 3em; */
 }
+/* Here is an example of how to override a "global" selector (in this case for h3) by using a class-specific selector, targeting a specific class attribute in the HTML */
+.skillsHeading {
+  color: yellow;
+  font-size: 30px;
+}
+/* Here is an example showing that one element can be a part of multiple classes, separated by a space */
+.multiCLassExample {
+  border-radius: 20px;
+}
+/* Here is an example of how to perform the same kind of override using an id instead of a class */
+#workExperienceHeading {
+  color: teal;
+  font-size: 15px;
+}
 p {
   /* font-size: 2em; */
+}
+td:hover {
+  color: pink;
 }

@@ -22,7 +22,7 @@
       </td>
     </tr>
   </table>
-  
+
   <hr>
 
   <h3>Education:</h3>
@@ -44,7 +44,10 @@
 
   <hr />
 
-  <h3>Work Experience:</h3>
+  <!-- The id attribute here, similar to the class attribute below, allows the CSS stylesheet to access this particular h3 independent of the others -->
+  <!-- The main difference between id and class, is there can only be one instance of an id, and there can be multiple of a class -->
+  <!-- Standard practice is to only use id when there will only be one of that item on the webpage like a main heading or navigation bar -->
+  <h3 id="workExperienceHeading">Work Experience:</h3>
   <table>
     <thead>
       <tr>
@@ -80,7 +83,10 @@
 
 <hr />
 
-<h3>Skills:</h3>
+<!-- The class attribute used here will allow the CSS stylesheet to access this particular h3 independent of all other h3's -->
+<!-- In contrast to the id attribute, as said above, this is very useful for groups of elements that you want to be styled similarly or independently of any global stylings -->
+<!-- Also demonstrated here is that an element can be a member of multiple classes, separated by a space, that can be targeted separately -->
+<h3 class="skillsHeading multiCLassExample">Skills:</h3>
 <table cellspacing="10">
   <thead>
     <tr>
