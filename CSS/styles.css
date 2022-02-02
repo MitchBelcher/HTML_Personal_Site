@@ -44,6 +44,7 @@ h3 {
 p {
   /* font-size: 2em; */
 }
+/* Here is an example of how to use a CSS psuedo-class. This one is making it so that all "td" elements, when "hover"ed over, will change color */
 td:hover {
   color: pink;
 }
